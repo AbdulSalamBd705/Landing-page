@@ -44,18 +44,22 @@
   .header {
     position: fixed;
     left: 0;
-    top: 0;
+    top: 0px;
     right: 0;
+    width: 100%;
+    background-color: transparent;
   }
   .header.action {
     background: var(--secendary-color);
     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
   }
   .header .container {
-    width: 1100px;
-    margin: 2rem auto;
+    position: relative;
   }
   .header .container .nav_bar {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1.3rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,18 +77,17 @@
   .header .container .nav_bar .brand a span:nth-child(3){
     color: var(--three-color);
   }
-  .header .container .nav_bar .navbar-collapse {
-    
-  }
+  
   .header .container .nav_bar .navbar-collapse .navbar-nav {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.4rem;
     list-style-type: none;
+    text-align: center;
   }
   .header .container .nav_bar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
+    display: inline-block;
     font-size: 1.2rem;
     color: var(--primary-color);
     font-weight: 600;
@@ -120,6 +123,9 @@
     background-color: transparent;
     color: var(--primary-color);
   }
+  .header .container .nav_bar .toggle {
+    display: none;
+  }
    /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
    ////////// End Navigation Bar //////////
   =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
@@ -147,20 +153,4 @@
 
 
 
-  /* 
-<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
-   ////////// Start Media //////////
-  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
-  @media (max-width: 991px){
-    .header .container {
-      width: 900px;
-    }
-  }
-
-
-
-
-  
-   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
-   ////////// End Media  //////////
-  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+ 

@@ -1,0 +1,40 @@
+ /* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start Media //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+  @media (max-width: 991px){
+    .header {
+      background: var(--secendary-color);
+      box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    }
+   .header .container .nav_bar{
+      width: 900px;
+    }
+    .header .container .nav_bar .toggle {
+      display: block;
+    }
+    .header .container .nav_bar .navbar-collapse .navbar-nav{
+      display: none;
+    }
+    /* .header .container .nav_bar .navbar-collapse .navbar-nav{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 60px;
+      display: block;
+      background-color: var(--secendary-color);
+      padding: 1rem;
+    } */
+    .header .container .nav_bar .navbar-collapse .navbar-nav .nav-item,
+    .header .container .nav_bar .navbar-collapse .navbar-nav .button {
+      margin-top: 1.5rem;
+    }
+  }
+
+
+
+
+  
+   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End Media  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
