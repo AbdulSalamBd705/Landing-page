@@ -2,21 +2,28 @@
 <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
    ////////// Start Media //////////
   =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+
+  @media (max-width: 1199px){
+    .header .container .nav_bar{
+      width: 900px;
+    }
+  }
   @media (max-width: 991px){
     .header {
       background: var(--secendary-color);
       box-shadow: 0 10px 10px rgba(0,0,0,0.2);
     }
    .header .container .nav_bar{
-      width: 900px;
+      width: 700px;
     }
     .header .container .nav_bar .toggle {
       display: block;
     }
     .header .container .nav_bar .navbar-collapse .navbar-nav{
       display: none;
+      transition: .4s ease;
     }
-    /* .header .container .nav_bar .navbar-collapse .navbar-nav{
+    .header .container .nav_bar .navbar-collapse .navbar-nav.active{
       position: absolute;
       left: 0;
       right: 0;
@@ -24,13 +31,22 @@
       display: block;
       background-color: var(--secendary-color);
       padding: 1rem;
-    } */
+    }
     .header .container .nav_bar .navbar-collapse .navbar-nav .nav-item,
     .header .container .nav_bar .navbar-collapse .navbar-nav .button {
       margin-top: 1.5rem;
     }
   }
-
+  @media (max-width: 767px){
+    .header .container .nav_bar{
+      width: 500px;
+    }
+  }
+  @media (max-width: 575px){
+    .header .container .nav_bar{
+      width: 95%;
+    }
+  }
 
 
 
