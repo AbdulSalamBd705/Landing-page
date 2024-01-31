@@ -1,0 +1,166 @@
+/* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start Google fonts Josefin //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+/* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End Google fonts Josefin //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+/* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start Root  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+  :root {
+    --primary-color: #000000;
+    --secendary-color: #ffffff;
+    --three-color: #B85043;
+  }
+   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End Root //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+/* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start Coustom Defole css  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+    
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: var(--secendary-color);
+    color: var(--primary-color);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End Coustom Defole css   //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+/* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start Navigation Bar  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+  .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .header.action {
+    background: var(--secendary-color);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+  }
+  .header .container {
+    width: 1100px;
+    margin: 2rem auto;
+  }
+  .header .container .nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .container .nav_bar .brand a{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2px;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .header .container .nav_bar .brand a span:nth-child(2),
+  .header .container .nav_bar .brand a span:nth-child(3){
+    color: var(--three-color);
+  }
+  .header .container .nav_bar .navbar-collapse {
+    
+  }
+  .header .container .nav_bar .navbar-collapse .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    list-style-type: none;
+  }
+  .header .container .nav_bar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 1px;
+    white-space: nowrap;
+    text-decoration: none;
+    transition:  .5s ease;
+    -moz-transition:  .5s ease;
+    -webkit-transition:  .5s ease;
+    -o-transition:  .5s ease;
+    cursor: 'pointer';
+  }
+  .header .container .nav_bar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: var(--three-color);
+  }
+  .header .container .nav_bar .navbar-collapse .navbar-nav .button {
+    border: 1px solid var(--three-color);
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    background: var(--three-color);
+    color: var(--secendary-color);
+    padding: 8px 16px;
+    border-radius: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+  }
+  .header .container .nav_bar .navbar-collapse .navbar-nav .btn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+  }
+   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End Navigation Bar //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+
+
+
+
+
+/* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+
+
+
+
+
+  
+   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+
+
+
+
+
+
+  /* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start Media //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+  @media (max-width: 991px){
+    .header .container {
+      width: 900px;
+    }
+  }
+
+
+
+
+  
+   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End Media  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
