@@ -103,7 +103,7 @@
   .header .container .nav_bar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
     color: var(--three-color);
   }
-  .header .container .nav_bar .navbar-collapse .navbar-nav .button {
+  .button {
     border: 1px solid var(--three-color);
     background: transparent;
     font-size: 1rem;
@@ -136,6 +136,46 @@
 
 /* 
 <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// Start Banner  //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+  .banner {
+    width: 1100px;
+    margin: 4rem auto;
+  }
+  .banner .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner .container .row .content{
+    padding-right: 10px;
+    background-color: red;
+  }
+  .banner .container .row .button{
+   padding-left: 10px;
+    background-color: red;
+  }
+  .banner .container .row .content h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+  }
+  .banner .container .row .content h2 span {
+    color: var(--three-color);
+  }
+  .banner .container .row .banner_image img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  
+   /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+   ////////// End Banner //////////
+  =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
+
+  /* 
+<!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
    ////////// Start  //////////
   =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
 
@@ -147,7 +187,6 @@
    /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
    ////////// End  //////////
   =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
-
 
 
 

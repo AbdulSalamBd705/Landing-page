@@ -7,6 +7,9 @@
     .header .container .nav_bar{
       width: 900px;
     }
+    .banner {
+      width: 900px;
+    }
   }
   @media (max-width: 991px){
     .header {
@@ -14,6 +17,9 @@
       box-shadow: 0 10px 10px rgba(0,0,0,0.2);
     }
    .header .container .nav_bar{
+      width: 700px;
+    }
+    .banner {
       width: 700px;
     }
     .header .container .nav_bar .toggle {
@@ -36,14 +42,23 @@
     .header .container .nav_bar .navbar-collapse .navbar-nav .button {
       margin-top: 1.5rem;
     }
+    .banner .container .row {
+      flex-flow: column-reverse;
+    }
   }
   @media (max-width: 767px){
     .header .container .nav_bar{
       width: 500px;
     }
+    .banner {
+      width: 500px;
+    }
   }
   @media (max-width: 575px){
     .header .container .nav_bar{
+      width: 95%;
+    }
+    .banner {
       width: 95%;
     }
   }
