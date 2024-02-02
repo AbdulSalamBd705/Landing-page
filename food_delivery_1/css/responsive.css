@@ -10,6 +10,9 @@
     .banner {
       width: 900px;
     }
+    .banner .container .row .content h2 {
+      font-size: 3rem;
+    }
   }
   @media (max-width: 991px){
     .header {
@@ -44,6 +47,12 @@
     }
     .banner .container .row {
       flex-flow: column-reverse;
+    }
+    .banner .container .row .content {
+      text-align: center;
+    }
+    .banner .container .row .content h2 {
+      font-size: 3rem;
     }
   }
   @media (max-width: 767px){

@@ -51,7 +51,7 @@
   }
   .header.action {
     background: var(--secendary-color);
-    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 10px rgba(0,0,0,0.1);
   }
   .header .container {
     position: relative;
@@ -149,18 +149,33 @@
   }
   .banner .container .row .content{
     padding-right: 10px;
-    background-color: red;
   }
-  .banner .container .row .button{
-   padding-left: 10px;
-    background-color: red;
-  }
+  
   .banner .container .row .content h2 {
     font-size: 3.4rem;
     font-weight: 700;
     line-height: 3.5rem;
   }
+  .banner .container .row .content p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    margin: 2rem 0;
+  }
   .banner .container .row .content h2 span {
+    color: var(--three-color);
+  }
+  .banner .container .row .main-button .button,
+  .banner .container .row .main-button .button:nth-child(2):hover{
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid var(--three-color);
+    background-color: var(--three-color);
+    color: var(--secendary-color);
+  }
+  .banner .container .row .main-button .button:hover,
+  .banner .container .row .main-button .button:nth-child(2){
+    background-color: transparent;
     color: var(--three-color);
   }
   .banner .container .row .banner_image img {
