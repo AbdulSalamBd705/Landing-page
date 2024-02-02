@@ -1,0 +1,84 @@
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 1199px ////////////////
+ *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+  @media (max-width: 1200px) {
+    .wrapper {
+      width: 900px;
+    }
+
+
+  }
+ /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 1199px ////////////////
+ *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+ /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 991px ////////////////
+ *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+ @media (max-width: 991px) {
+  .wrapper {
+    width: 700px;
+  }
+  .navbar .collapse .navbar-nav {
+    display: none;
+  }
+  .navbar .collapse .bars {
+    display: block;
+  }
+  .navbar .collapse .bars .fa-bars-staggered {
+    background-color: var(--lover-color);
+    color: var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid var(--lover-color);
+    font-size: 1.4rem;
+    transition: .3s ease;
+  }
+  .navbar .collapse .bars .fa-bars-staggered:hover {
+    background-color: transparent;
+    color: var(--lover-color);
+  }
+  .navbar .collapse .navbar-nav.active {
+    display: block;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    right: 0;
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem;
+  }
+  .navbar .collapse .navbar-nav.active .nav-link {
+    margin: 5px;
+  }
+ }
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 991px ////////////////
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 767px ////////////////
+ *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+ @media (max-width: 767px) {
+    .wrapper {
+      width: 500px;
+    }
+
+ }
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 767px ////////////////
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 575px ////////////////
+ *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+ @media (max-width: 575px) {
+    .wrapper {
+      width: 95%;
+    }
+
+ }
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+////////////////// width 575px ////////////////
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
