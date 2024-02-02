@@ -193,16 +193,35 @@
 
   /* 
 <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
-   ////////// Start  //////////
+   ////////// Start Delivery Section //////////
   =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
-
-
-
-
-
-  
+  .delivery {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  .delivery img {
+    width: 25px;
+  }
+  .delivery .container .heading {
+    text-align: center;
+  }
+  .delivery .container .heading h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--three-color);
+    line-height: 3rem;
+  }
+  .delivery .container .heading h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  .delivery .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
    /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
-   ////////// End  //////////
+   ////////// End Delivery Section //////////
   =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
 
 

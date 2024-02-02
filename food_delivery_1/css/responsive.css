@@ -10,6 +10,9 @@
     .banner {
       width: 900px;
     }
+    .delivery {
+      width: 900px;
+    }
     .banner .container .row .content h2 {
       font-size: 3rem;
     }
@@ -31,6 +34,9 @@
     .banner {
       width: 700px;
       margin-top: 4rem;
+    }
+    .delivery {
+      width: 700px;
     }
     .header .container .nav_bar .toggle {
       display: block;
@@ -70,12 +76,18 @@
     .banner {
       width: 500px;
     }
+    .delivery {
+      width: 500px;
+    }
   }
   @media (max-width: 575px){
     .header .container .nav_bar{
       width: 95%;
     }
     .banner {
+      width: 95%;
+    }
+    .delivery {
       width: 95%;
     }
     .banner .container .row .content h2{
