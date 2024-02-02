@@ -54,6 +54,13 @@
   .navbar .collapse .navbar-nav.active .nav-link {
     margin: 5px;
   }
+  .banner .container .row{
+    flex-direction: column-reverse;
+  }
+  .banner .container .row .content, 
+  .banner .container .row .image{
+   width: 100%;
+  }
  }
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 ////////////////// width 991px ////////////////
