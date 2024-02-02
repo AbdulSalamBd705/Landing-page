@@ -216,6 +216,42 @@
   .heading h1 span {
     color: var(--lover-color);
   }
+  .brending .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    margin: 4rem;
+  }
+  .brending .container .row .card {
+    width: 105px;
+    height: 170px;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    transition: .5s ease;
+    cursor: pointer;
+  }
+  .brending .container .row .card:hover {
+    background-color: var(--lover-color);
+  }
+  .brending .container .row .card:focus {
+    background-color: var(--lover-color);
+  }
+  .brending .container .row .card img {
+    width: 90px;
+    height: auto;
+    margin-top: 5px;
+  }
+  .brending .container .row .card h4{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    transition: .5s ease;
+  }
+  .brending .container .row .card:hover h4{
+    color: var(--secondary-color);
+  }
  /* *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 ////////////////// End Heading Section ////////////////
  *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=* */
