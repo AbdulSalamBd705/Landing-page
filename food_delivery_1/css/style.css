@@ -219,6 +219,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 50%;
+  }
+  .delivery .container .row .card {
+
   }
    /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
    ////////// End Delivery Section //////////
