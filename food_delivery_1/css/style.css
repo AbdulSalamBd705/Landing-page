@@ -197,10 +197,7 @@
   =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*= --> */
   .delivery {
     width: 1100px;
-    margin: 0 auto;
-  }
-  .delivery img {
-    width: 25px;
+    margin: 3rem auto;
   }
   .delivery .container .heading {
     text-align: center;
@@ -217,12 +214,36 @@
   }
   .delivery .container .row {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex: 50%;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 2rem 0;
   }
   .delivery .container .row .card {
-
+    width: 330px;
+    padding: 10px;
+    transition: .4s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .delivery .container .row .card:hover {
+    background: rgba(0,0,0,0.1);
+    border-color: rgba(0,0,0,0.3);
+  }
+  .delivery .container .row .card img {
+    width: 30px;
+    height: auto;
+  }
+  .delivery .container .row .card h3 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    line-height: 2rem;
+  }
+  .delivery .container .row .card p {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1rem;
   }
    /* <!-- =*=*=*=*=*=*=*=*=*=*=*=*=*=*==*=*=*=*=*=*=*=*=*=*=*=*=*=*=
    ////////// End Delivery Section //////////

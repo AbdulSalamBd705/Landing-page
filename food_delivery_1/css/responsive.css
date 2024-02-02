@@ -13,6 +13,9 @@
     .delivery {
       width: 900px;
     }
+    .delivery .container .row .card {
+      width: 283.33px;
+    }
     .banner .container .row .content h2 {
       font-size: 3rem;
     }
@@ -37,6 +40,9 @@
     }
     .delivery {
       width: 700px;
+    }
+    .delivery .container .row .card {
+      width: 320px;
     }
     .header .container .nav_bar .toggle {
       display: block;
@@ -79,6 +85,9 @@
     .delivery {
       width: 500px;
     }
+    .delivery .container .row .card {
+      width: 230px;
+    }
   }
   @media (max-width: 575px){
     .header .container .nav_bar{
@@ -100,6 +109,9 @@
     .banner .container .row .content p {
       line-height: 1rem;
       margin: 1rem 0;
+    }
+    .delivery .container .row .card {
+      width: 95%;
     }
   }
   @media (max-width: 320px){
