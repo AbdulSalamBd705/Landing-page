@@ -24,13 +24,13 @@
   @media (max-width: 991px){
     .header {
       background: var(--secendary-color);
-      box-shadow: 0 10px 10px rgba(0,0,0,0.2);
     }
    .header .container .nav_bar{
       width: 700px;
     }
     .banner {
       width: 700px;
+      margin-top: 4rem;
     }
     .header .container .nav_bar .toggle {
       display: block;
@@ -60,6 +60,7 @@
     }
     .banner .container .row .content h2 {
       font-size: 3rem;
+      line-height: 3rem;
     }
   }
   @media (max-width: 767px){
@@ -92,7 +93,7 @@
   @media (max-width: 320px){
     .banner .container .row .content h2{
       font-size: 2rem;
-      line-height: 2.5rem;
+      line-height: 2.3rem;
     }
     .banner .container .row .main-button .button {
       margin: 3px 0;
