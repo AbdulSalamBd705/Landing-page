@@ -19,6 +19,7 @@
     --secondary-color: #FFFFFF;
     --lover-color: #EF5DA8;
     --bg-color: #FCEEFD;
+    --yellow-color: #FBC300;
   }
   body {
     background-color: var(--secondary-color);
@@ -109,7 +110,8 @@
 //////////////// Star Banner Section  /////////////////
  *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=* */
  .banner {
-  background-color: var(--secondary-color);
+  background-color: var(--bg-color);
+  padding: 1rem 0;
  }
   .banner .container .row {
     display: flex;
@@ -123,10 +125,76 @@
    width: 50%;
   }
   .banner .container .row .content h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
     color: var(--primary-color);
     font-weight: 700;
-    line-height: 5rem;
+    line-height: 4rem;
+    white-space: wrap;
+  }
+  .banner .container .row .content h1 span {
+    color: var(--lover-color);
+  }
+  .banner .container .row .content h1 span:nth-child(2){
+    background-image: url(/foodLover/image/span.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: var(--primary-color);
+  }
+  .banner .container .row .content p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    line-height: 4rem;
+    white-space: wrap;
+  }
+  .banner .container .row .content .content_button .button{
+    position: relative;
+    z-index: 2;
+    margin: 2rem 0;
+    padding: 16px 30px;
+    border-radius: 20px;
+  }
+  .banner .container .row .content .content_button .button::after{
+    content: url(/foodLover/image/button-rep.png);
+    position: absolute;
+    right: -1rem;
+    top: -1.6rem;
+    
+    z-index: 1;
+  }
+  .banner .container .row .content .content_button .button i{
+    margin-left: 1rem;
+  }
+  .banner .container .row .image img {
+    width: 100%;
+    height: auto;
+  }
+  .banner .container .row .review {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 3rem 0;
+    gap: 20px;
+  }
+  .banner .container .row .review img {
+    width: 40px;
+    margin: -12px;
+  }
+  .banner .container .row .review  .content-review  h3 {
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 1rem;
+    color: var(--primary-color);
+  }
+  .banner .container .row .review  .content-review .fa-star{
+    font-size: .8rem;
+    color: var(--yellow-color);
+    line-height:1rem;
+  }
+  .banner .container .row .review  .content-review  span {
+    font-size: .8rem;
+    color: var(--primary-color);
+    font-weight: 400;
   }
  /* *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 ////////////////// End Banner Section ////////////////

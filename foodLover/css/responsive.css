@@ -44,7 +44,7 @@
   .navbar .collapse .navbar-nav.active {
     display: block;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
     left: 0;
     right: 0;
     background-color: var(--secondary-color);
@@ -60,6 +60,15 @@
   .banner .container .row .content, 
   .banner .container .row .image{
    width: 100%;
+   margin: 0 auto;
+  }
+  .banner .container .row{
+    text-align: center;
+  }
+  .banner .container .row .review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
  }
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
@@ -71,6 +80,13 @@
  @media (max-width: 767px) {
     .wrapper {
       width: 500px;
+    }
+    .banner .container .row .content h1{
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+    .banner .container .row .content p {
+      line-height: 2rem;
     }
 
  }
@@ -84,7 +100,7 @@
     .wrapper {
       width: 95%;
     }
-
+    
  }
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
 ////////////////// width 575px ////////////////
