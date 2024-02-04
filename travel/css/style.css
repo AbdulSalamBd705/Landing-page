@@ -24,4 +24,43 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 /*========== End Body ==========*/
+/*========== Start Header ==========*/
+.header {
+  width: 1200px;
+  margin: auto;
+  background: red;
+}
+/*========== Start nav ==========*/
+.header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*========== Start brand logo ==========*/
+.header .nav .brand .logo {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+/*========== End brand logo ==========*/
+/*========== Start Navbar-nav ==========*/
+.header .nav .navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+/*========== End Navbar-nav ==========*/
+/*========== Start Light Notification ==========*/
+.header .nav .light_notification {
+  display: flex;
+  align-items: center;
+}
+/*========== End Light Notification ==========*/
+
+
+
+
+/*========== End nav ==========*/
+
+/*========== End Header ==========*/
 /*========== End Global Style ==============*/
