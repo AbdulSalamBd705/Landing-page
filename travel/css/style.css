@@ -9,6 +9,16 @@
   box-sizing: border-box;
 }
 /*========== Start Universal ==========*/
+/*========== Start Root Variables ==========*/
+:root{
+  --primary-color: #edece5;
+  --secondary-color: #2d3134;
+  --orange-color: #ff450a;
+  --dark-color: #e2d8ce;
+  --white-color: #fff;
+  --blue-color: #383d93;
+}
+/*========== End Root Variables ==========*/
 /*========== Start Body ==========*/
 body {
   font-family: 'Josefin Sans', sans-serif;
