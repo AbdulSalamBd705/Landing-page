@@ -55,7 +55,19 @@ body {
   display: flex;
   align-items: center;
 }
+.header .nav .light_notification img {
+  width: 20px;
+}
 /*========== End Light Notification ==========*/
+/*========== Start Sun-mon ==========*/
+.header .nav .sun-mon {
+  display: flex;
+  align-items: center;
+}
+.header .nav .sun-mon svg {
+  width: 20px;
+}
+/*========== End Sun-mon ==========*/
 
 
 
