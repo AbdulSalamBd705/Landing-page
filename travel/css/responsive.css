@@ -1,0 +1,53 @@
+/*========== Start width: 1199px ==========*/
+@media (max-width: 1199px){
+  /*========== Start Header ==========*/
+  .header {
+    width: 900px;
+  }
+  /*========== End Header ==========*/
+}
+/*========== End width: 1199px ==========*/
+/*========== Start width: 991px ==========*/
+@media (max-width: 991px){
+  /*========== Start Header ==========*/
+  .header {
+    width: 700px;
+  }
+  .header .nav .light_notification .location_notification .fa-bars-staggered {
+    display: block;
+  }
+  /*========== End Header ==========*/
+  /*========== Start Navbar-nav ==========*/
+  .header .nav .navbar-nav{
+    display: none;
+  }
+  /*========== End Navbar-nav ==========*/
+}
+/*========== End width: 991px ==========*/
+/*========== Start width: 768px ==========*/
+@media (max-width: 768px){
+  /*========== Start Header ==========*/
+  .header {
+    width: 500px;
+  }
+  /*========== End Header ==========*/
+}
+/*========== End width: 768px ==========*/
+/*========== Start width: 575px ==========*/
+@media (max-width: 575px){
+  /*========== Start Header ==========*/
+  .header {
+    width: 95%;
+  }
+  /*========== End Header ==========*/
+}
+/*========== end width: 575px ==========*/
+/*========== Start width: 390px ==========*/
+@media (max-width: 390px){
+  /*========== Start brand logo ==========*/
+  .header .nav .brand .logo span {
+    display: none;
+  }
+  /*========== End brand logo ==========*/
+}
+/*========== end width: 390px ==========*/
