@@ -5,6 +5,11 @@
     width: 900px;
   }
   /*========== End navbar ==========*/
+  /*========== Start Container_All ==========*/
+  .container_All {
+    width: 900px;
+  }
+/*========== End Container_All ==========*/
 }
 /*========== End width: 1199px ==========*/
 /*========== Start width: 991px ==========*/
@@ -13,6 +18,11 @@
   .navbar {
     width: 700px;
   }
+  /*========== Start Container_All ==========*/
+  .container_All {
+    width: 700px;
+  }
+/*========== End Container_All ==========*/
   .navbar .nav .light_notification .location_notification .fa-bars-staggered {
     display: block;
   }
@@ -44,6 +54,11 @@
     width: 500px;
   }
   /*========== End navbar ==========*/
+  /*========== Start Container_All ==========*/
+  .container_All {
+    width: 500px;
+  }
+/*========== End Container_All ==========*/
 }
 /*========== End width: 768px ==========*/
 /*========== Start width: 575px ==========*/
@@ -53,6 +68,11 @@
     width: 95%;
   }
   /*========== End navbar ==========*/
+  /*========== Start Container_All ==========*/
+  .container_All {
+    width: 95%;
+  }
+/*========== End Container_All ==========*/
 }
 /*========== end width: 575px ==========*/
 /*========== Start width: 390px ==========*/
