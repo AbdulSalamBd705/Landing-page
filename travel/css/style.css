@@ -17,18 +17,27 @@
   --dark-color: #e2d8ce;
   --white-color: #fff;
   --blue-color: #383d93;
+  --black-color: #000;
 }
 /*========== End Root Variables ==========*/
 /*========== Start Body ==========*/
 body {
   font-family: 'Josefin Sans', sans-serif;
+  background-color: var(--primary-color);
 }
 /*========== End Body ==========*/
+/*========== Start wrapper ==========*/
+.wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
 /*========== Start Header ==========*/
 .header {
   width: 1200px;
   margin: auto;
-  background: red;
+  padding: 1.5rem 0;
 }
 /*========== Start nav ==========*/
 .header .nav {
@@ -40,33 +49,70 @@ body {
 .header .nav .brand .logo {
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 2px;
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 /*========== End brand logo ==========*/
 /*========== Start Navbar-nav ==========*/
 .header .nav .navbar-nav {
   display: flex;
   align-items: center;
+  list-style-type: none;
   gap: 2rem;
+}
+.header .nav .navbar-nav .nav-item .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  transition: all .5s ease;
+}
+.header .nav .navbar-nav .nav-item:hover .nav-link,
+.header .nav .navbar-nav .nav-item .nav-link.active{
+  color: var(--orange-color);
+}
+.header .nav .navbar-nav .nav-item:hover .nav-link::after,
+.header .nav .navbar-nav .nav-item .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 90%;
+  height: 2px;
+  background-color: var(--orange-color);
 }
 /*========== End Navbar-nav ==========*/
 /*========== Start Light Notification ==========*/
 .header .nav .light_notification {
   display: flex;
   align-items: center;
-}
-.header .nav .light_notification img {
-  width: 20px;
+  gap: .8rem;
 }
 /*========== End Light Notification ==========*/
+/*========== Start location_notification ==========*/
+.header .nav .light_notification .location_notification {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+/*========== End location_notification ==========*/
 /*========== Start Sun-mon ==========*/
 .header .nav .sun-mon {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
-.header .nav .sun-mon svg {
-  width: 20px;
-}
+/* .header .nav .sun-mon {
+  background: var(--black-color);
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+} */
 /*========== End Sun-mon ==========*/
 
 
@@ -75,4 +121,5 @@ body {
 /*========== End nav ==========*/
 
 /*========== End Header ==========*/
+/*========== End wrapper ==========*/
 /*========== End Global Style ==============*/
