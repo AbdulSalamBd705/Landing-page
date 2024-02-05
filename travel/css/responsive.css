@@ -1,51 +1,64 @@
 /*========== Start width: 1199px ==========*/
 @media (max-width: 1199px){
-  /*========== Start Header ==========*/
-  .header {
+  /*========== Start navbar ==========*/
+  .navbar {
     width: 900px;
   }
-  /*========== End Header ==========*/
+  /*========== End navbar ==========*/
 }
 /*========== End width: 1199px ==========*/
 /*========== Start width: 991px ==========*/
 @media (max-width: 991px){
-  /*========== Start Header ==========*/
-  .header {
+  /*========== Start navbar ==========*/
+  .navbar {
     width: 700px;
   }
-  .header .nav .light_notification .location_notification .fa-bars-staggered {
+  .navbar .nav .light_notification .location_notification .fa-bars-staggered {
     display: block;
   }
-  /*========== End Header ==========*/
+  /*========== End navbar ==========*/
   /*========== Start Navbar-nav ==========*/
-  .header .nav .navbar-nav{
+  .navbar .nav .navbar-nav{
     display: none;
+    position: absolute;
+    top: 6.1rem;
+    background-color: var(--primary-color);
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+  .navbar .nav .navbar-nav .nav-item .nav-link {
+    margin: 1rem 0;
+  }
+  .navbar .nav .navbar-nav.active {
+    display: block;
   }
   /*========== End Navbar-nav ==========*/
 }
 /*========== End width: 991px ==========*/
 /*========== Start width: 768px ==========*/
 @media (max-width: 768px){
-  /*========== Start Header ==========*/
-  .header {
+  /*========== Start navbar ==========*/
+  .navbar {
     width: 500px;
   }
-  /*========== End Header ==========*/
+  /*========== End navbar ==========*/
 }
 /*========== End width: 768px ==========*/
 /*========== Start width: 575px ==========*/
 @media (max-width: 575px){
-  /*========== Start Header ==========*/
-  .header {
+  /*========== Start navbar ==========*/
+  .navbar {
     width: 95%;
   }
-  /*========== End Header ==========*/
+  /*========== End navbar ==========*/
 }
 /*========== end width: 575px ==========*/
 /*========== Start width: 390px ==========*/
 @media (max-width: 390px){
   /*========== Start brand logo ==========*/
-  .header .nav .brand .logo span {
+  .navbar .nav .brand .logo span {
     display: none;
   }
   /*========== End brand logo ==========*/

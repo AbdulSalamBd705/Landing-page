@@ -31,26 +31,38 @@ body.sun {
 }
 /*========== End Body ==========*/
 /*========== Start wrapper ==========*/
+.wrapper.sticky{
+  background: var(--primary-color);
+  box-shadow: 0 1px 10px rgba(0,0,0 ,0.1);
+}
 .wrapper {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  transition: all .5s ease;
 }
-/*========== Start Header ==========*/
-.header {
+/*========== Start navbar ==========*/
+.navbar {
   width: 1100px;
   margin: auto;
   padding: 1.5rem 0;
 }
+/*========== Start Header ==========*/
+.wrapper .header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/*========== End Header ==========*/
 /*========== Start nav ==========*/
-.header .nav {
+.navbar .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 /*========== Start brand logo ==========*/
-.header .nav .brand .logo {
+.navbar .nav .brand .logo {
   display: flex;
   align-items: center;
   gap: 2px;
@@ -61,13 +73,13 @@ body.sun {
 }
 /*========== End brand logo ==========*/
 /*========== Start Navbar-nav ==========*/
-.header .nav .navbar-nav {
+.navbar .nav .navbar-nav {
   display: flex;
   align-items: center;
   list-style-type: none;
   gap: 2rem;
 }
-.header .nav .navbar-nav .nav-item .nav-link {
+.navbar .nav .navbar-nav .nav-item .nav-link {
   display: inline-block;
   text-align: center;
   justify-content: center;
@@ -79,12 +91,12 @@ body.sun {
   position: relative;
   transition: all .5s ease;
 }
-.header .nav .navbar-nav .nav-item:hover .nav-link,
-.header .nav .navbar-nav .nav-item .nav-link.active{
+.navbar .nav .navbar-nav .nav-item:hover .nav-link,
+.navbar .nav .navbar-nav .nav-item .nav-link.active{
   color: var(--orange-color);
 }
-.header .nav .navbar-nav .nav-item:hover .nav-link::after,
-.header .nav .navbar-nav .nav-item .nav-link.active::after {
+.navbar .nav .navbar-nav .nav-item:hover .nav-link::after,
+.navbar .nav .navbar-nav .nav-item .nav-link.active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -95,30 +107,30 @@ body.sun {
 }
 /*========== End Navbar-nav ==========*/
 /*========== Start Light Notification ==========*/
-.header .nav .light_notification {
+.navbar .nav .light_notification {
   display: flex;
   align-items: center;
   gap: .8rem;
 }
 /*========== End Light Notification ==========*/
 /*========== Start location_notification ==========*/
-.header .nav .light_notification .location_notification {
+.navbar .nav .light_notification .location_notification {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.header .nav .light_notification .location_notification .fa-bell {
+.navbar .nav .light_notification .location_notification .fa-bell {
   position: relative;
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--secondary-color);
 }
-.header .nav .light_notification .location_notification .fa-location-dot {
+.navbar .nav .light_notification .location_notification .fa-location-dot {
   font-size: 1.2rem;
   color: var(--secondary-color);
   cursor: pointer;
 }
-.header .nav .light_notification .location_notification .fa-bell::after{
+.navbar .nav .light_notification .location_notification .fa-bell::after{
   content: "";
   position: absolute;
   width: 6px;
@@ -129,7 +141,7 @@ body.sun {
   right: 0;
   top: 1px;
 }
-.header .nav .light_notification .location_notification .fa-bars-staggered{
+.navbar .nav .light_notification .location_notification .fa-bars-staggered{
   font-size: 1.4rem;
   padding: 8px;
   color: var(--secondary-color);
@@ -138,7 +150,7 @@ body.sun {
 }
 /*========== End location_notification ==========*/
 /*========== Start Sun-mon ==========*/
-.header .nav .sun-mon {
+.navbar .nav .sun-mon {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -151,8 +163,8 @@ body.sun {
   color: var(--dark-color);
   cursor: pointer;
 }
-.header .nav .sun-mon .fa-sun.sun,
-.header .nav .sun-mon .fa-sun.active_sun {
+.navbar .nav .sun-mon .fa-sun.sun,
+.navbar .nav .sun-mon .fa-sun.active_sun {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,7 +173,7 @@ body.sun {
   background-color: var(--orange-color);
   border-radius: 10px;
 }
-.header .nav .sun-mon .fa-moon.moon {
+.navbar .nav .sun-mon .fa-moon.moon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,6 +189,6 @@ body.sun {
 
 /*========== End nav ==========*/
 
-/*========== End Header ==========*/
+/*========== End navbar ==========*/
 /*========== End wrapper ==========*/
 /*========== End Global Style ==============*/
