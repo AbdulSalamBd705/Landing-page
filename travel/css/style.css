@@ -214,8 +214,8 @@ body.sun {
 .hero .container .row {
   width: 100%;
   height: 300px;
-  background: rgba(0,0,0,0.1);
-  border: 2px solid rgba(0,0,0,0.1);
+  background: rgba(0,0,0 ,0.1);
+  border: 2px solid rgba(255,255,255,0.3);
   backdrop-filter: blur(5px);
   position: relative;
 }
@@ -223,16 +223,82 @@ body.sun {
 .hero .container .row .hotel-tour {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   position: absolute;
-  width: 100px;
-  height: 20px;
-  top: -20px;
-  left: 0;
-  background: rgba(0,0,0,0.1);
-  backdrop-filter: blur(5px)
+  width: 400px;
+  height: 50px;
+  top: -25px;
+  left: 50%;
+  gap: 2rem;
+  transform: translate(-50%);
+  background: var(--black-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  cursor: pointer;
 }
+.hero .container .row .hotel-tour .tour {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 1rem;
+  gap: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+  transition: .5s ease;
+}
+.hero .container .row .hotel-tour .tour:hover {
+  border-bottom: 3px solid var(--orange-color);
+}
+.hero .container .row .hotel-tour .tour .fa-plane {
+  transform: rotate(-50deg);
+  font-size: 1.2rem;
+}
+.hero .container .row .flight_one .round {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin:3rem 0 1rem 2rem;
+  gap: 1rem;
+}
+.hero .container .row .flight_one .round .radio {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+.hero .container .row .flight_one .round .radio input[type="radio"]{
+  accent-color: var(--orange-color);
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 /*========== End Hotel And TOur ==========*/
+/*========== Start Button ==========*/
+.hero .container .row .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%);
+  background: var(--orange-color);
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.hero .container .row .button:hover {
+  
+  backdrop-filter: blur(5px);
+}
+/*========== End Button ==========*/
 
 /*========== End Row ==========*/
 /*========== End container ==========*/
